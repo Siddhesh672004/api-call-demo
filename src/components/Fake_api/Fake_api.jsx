@@ -15,7 +15,6 @@ const Fake_api = () => {
   }, []);
   return (
     <div className={styles.App}>
-      <h1>Hello ReqRes Users!</h1>
       <div className={styles.flex}>
         {users.length > 0 &&
           users.map((user) => (
