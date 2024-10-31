@@ -1,0 +1,45 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    border-radius: 50%;
+    max-width: 80px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    margin: 0.5rem 0;
+  }
+  
+  @media (max-width: 600px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
+  
