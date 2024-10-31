@@ -13,7 +13,6 @@ const Fake_api = () => {
   React.useEffect(() => {
     f();
   }, []);
-
   return (
     <div className={styles.App}>
       <h1>Hello ReqRes Users!</h1>
